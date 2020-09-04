@@ -17,8 +17,7 @@ class Dashboard extends Component {
     render() {
         return (
             <div>
-                Dashboard.js
-                <Product />
+                <Product {this.props.products} />
             </div>
         )
     }
